@@ -19,24 +19,38 @@ const Info = () => {
             </View>
             <Text
                 style={{
-                    fontSize: 16,
+                    fontSize: 20,
                     fontWeight: "500",
                     colo: "#313131",
                     marginTop: 10,
-                    lineHeight: 22,
+                    lineHeight: 27,
                 }}
             >
                 Leaving for a week, French Bulldog Wilfred needs help feeding
                 twice a day and walk from 26 to 30 September. I bought food, it
                 will be easy.
             </Text>
-            <View style={{ flexDirection: "row", gap: 5, marginTop: 15, alignItems:'center' }}>
+            <View
+                style={{
+                    flexDirection: "row",
+                    gap: 5,
+                    marginTop: 15,
+                    alignItems: "center",
+                }}
+            >
                 <Image source={require("../assets/icons/iconWallet.png")} />
-                <Text style={{fontSize: 16}}>Reward 34$</Text>
+                <Text style={{ fontSize: 18,fontWeight: '600' }}>Reward 34$</Text>
             </View>
-            <View style={{ flexDirection: "row", gap: 5,  marginTop: 15,  alignItems:'center' }}>
+            <View
+                style={{
+                    flexDirection: "row",
+                    gap: 5,
+                    marginTop: 15,
+                    alignItems: "center",
+                }}
+            >
                 <Image source={require("../assets/icons/iconGeo.png")} />
-                <Text style={{fontSize: 16}}>3 HERALD</Text>
+                <Text style={{ fontSize: 18, fontWeight: '600' }}>3 HERALD</Text>
             </View>
         </View>
     );

@@ -8,16 +8,16 @@ const Cta = () => {
                 flexDirection: "row",
                 justifyContent: "space-between",
                 marginHorizontal: 25,
-                position: "relative",
-                top: 10,
+                marginTop: 70,
+
             }}
         >
-            <Pressable style={{ padding: 15 }}>
+            <Pressable style={{ padding: 20 }}>
                 <Image source={require("../assets/icons/chat.png")} />
             </Pressable>
             <Pressable
                 style={{
-                    padding: 15,
+                    padding: 20,
                     backgroundColor: "#A58EFF",
                     justifyContent: "center",
                     width: "80%",
@@ -25,7 +25,9 @@ const Cta = () => {
                     borderRadius: 10,
                 }}
             >
-                <Text style={{ color: "#fff", fontSize: "600" }}>Respond</Text>
+                <Text style={{ color: "#fff", fontWeight: "600" }}>
+                    Respond
+                </Text>
             </Pressable>
         </View>
     );
